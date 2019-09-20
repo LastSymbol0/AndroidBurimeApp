@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout">
+
+  <ImageView
+      android:id="@+id/userpic"
+      android:layout_width="58dp"
+      android:layout_height="52dp"
+      android:layout_row="5"
+      android:layout_column="0"
+      tools:layout_conversion_absoluteHeight="50dp"
+      tools:layout_conversion_absoluteWidth="50dp"
+      tools:layout_editor_absoluteX="8dp"
+      tools:layout_editor_absoluteY="84dp"
+      tools:src="@tools:sample/avatars"
+      tools:srcCompat="@tools:sample/avatars" />
+
+
+  <TextView
+      android:id="@+id/head"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_row="0"
+      android:layout_column="1"
+      android:padding="10dp"
+      android:textStyle="bold"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="46dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="8dp"
+      tools:text="Header" />
+
+  <EditText
+      android:id="@+id/line_edit1"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_row="1"
+      android:layout_column="1"
+      android:inputType="text"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="124dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="27dp" />
+
+  <EditText
+      android:id="@+id/line_edit2"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_row="2"
+      android:layout_column="1"
+      android:inputType="text"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="179dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="46dp" />
+
+  <EditText
+      android:id="@+id/line_edit3"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_row="3"
+      android:layout_column="1"
+      android:inputType="text"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="126dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="84dp" />
+
+  <EditText
+      android:id="@+id/line_edit4"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_row="4"
+      android:layout_column="1"
+      android:inputType="text"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="179dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="65dp" />
+
+  <TextView
+      android:id="@+id/line_end2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="2"
+      android:layout_column="2"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="124dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="27dp"
+      tools:text="line 1" />
+
+  <TextView
+      android:id="@+id/line_end4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="4"
+      android:layout_column="2"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="124dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="27dp"
+      tools:text="line 1" />
+
+  <TextView
+      android:id="@+id/line_end3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="3"
+      android:layout_column="2"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="124dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="27dp"
+      tools:text="line 1" />
+
+  <TextView
+      android:id="@+id/line_end1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="1"
+      android:layout_column="2"
+      android:padding="3dp"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="124dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="27dp"
+      tools:text="line 1" />
+
+  <TextView
+      android:id="@+id/date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="6"
+      android:layout_column="1"
+      android:padding="3dp"
+      android:textSize="10sp"
+      android:textStyle="italic"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="179dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="65dp"
+      tools:text="01/01/2019" />
+
+  <TextView
+      android:id="@+id/from_username_list"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="6"
+      android:layout_column="0"
+      android:padding="3dp"
+      android:textAllCaps="false"
+      android:textSize="12sp"
+      app:fontFamily="casual"
+      tools:layout_conversion_absoluteHeight="19dp"
+      tools:layout_conversion_absoluteWidth="179dp"
+      tools:layout_editor_absoluteX="58dp"
+      tools:layout_editor_absoluteY="65dp"
+      tools:text="username" />
+
+  <Button
+      android:id="@+id/solve_btn"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_row="5"
+      android:layout_column="1"
+      android:layout_alignParentLeft="true"
+      android:text="Finish !"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:textStyle="italic" />
+
+</GridLayout>
